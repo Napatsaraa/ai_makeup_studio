@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>AI Makeup Studio - ลุคแต่งหน้าที่แนะนำ</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-b from-pink-100 to-purple-200 min-h-screen flex flex-col items-center justify-center font-sans">
+    
+    <!-- Header -->
+    <h1 class="text-4xl font-bold text-pink-700 mb-4 font-cursive flex items-center">💄 ลุคแต่งหน้าที่แนะนำ 💄</h1>
+    <p class="text-lg text-gray-700 mb-6 italic text-center">✨ เลือกสไตล์ที่เหมาะกับคุณจาก AI ✨</p>
+
+    <!-- Back Button -->
+    <a href="https://napatsaraa.github.io/ai-makeup-studio/" class="mb-6 px-6 py-3 bg-pink-500 text-white rounded-full shadow-lg hover:bg-pink-600 transition flex items-center">⬅ กลับหน้าหลัก</a>
+
+    <!-- Recommended Looks (Centered Horizontal Layout) -->
+    <div class="flex justify-center gap-8 w-full max-w-5xl px-4">
+        <div class="p-6 bg-white shadow-lg rounded-3xl flex flex-col items-center border-4 border-pink-400 transition transform hover:scale-105 min-w-[300px] text-center">
+            <div class="w-28 h-28 bg-white rounded-full border-4 border-pink-400 shadow-lg flex items-center justify-center">
+                <img src="/images/natural-look.jpg" alt="" class="w-24 h-24 rounded-full">
+            </div>
+            <h2 class="text-2xl font-bold text-pink-700 mt-4">ลุคธรรมชาติ</h2>
+            <p class="text-sm text-gray-500">✨ โทนสีพีช + รองพื้นบางเบา ✨</p>
+        </div>
+        <div class="p-6 bg-white shadow-lg rounded-3xl flex flex-col items-center border-4 border-purple-400 transition transform hover:scale-105 min-w-[300px] text-center">
+            <div class="w-28 h-28 bg-white rounded-full border-4 border-purple-400 shadow-lg flex items-center justify-center">
+                <img src="/images/luxury-look.jpg" alt="" class="w-24 h-24 rounded-full">
+            </div>
+            <h2 class="text-2xl font-bold text-purple-700 mt-4">ลุคหรูหรา</h2>
+            <p class="text-sm text-gray-500">✨ อายแชโดว์ทอง + ลิปสีแดง ✨</p>
+        </div>
+        <div class="p-6 bg-white shadow-lg rounded-3xl flex flex-col items-center border-4 border-pink-400 transition transform hover:scale-105 min-w-[300px] text-center">
+            <div class="w-28 h-28 bg-white rounded-full border-4 border-pink-400 shadow-lg flex items-center justify-center">
+                <img src="/images/korean-look.jpg" alt="" class="w-24 h-24 rounded-full">
+            </div>
+            <h2 class="text-2xl font-bold text-pink-700 mt-4">ลุคเกาหลี</h2>
+            <p class="text-sm text-gray-500">✨ ตาสองชั้น + ลิปทินท์สีชมพู ✨</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="mt-12 text-gray-500 text-sm text-center">
+        © 2025 AI Makeup Studio. All rights reserved.
+    </footer>
+</body>
+</html>
